@@ -1,0 +1,71 @@
+1.]What is difference between let and const and var ?
+-----------------------------------------------------------------
+2.]Type of data type ?
+  i.Primitive type
+  ii.Reference type
+-----------------------------------------------------------------
+
+3.]What is object in Javascript ?
+
+-----------------------------------------------------------------
+4.]What is Factory function?
+Ans-Factory Function is a fucntion which produces objects when we called it.
+
+const rectangle = {
+    length: 2,
+    breadth: 4,
+
+    draw: function () {
+      console.log("Drawing rectangle");
+    },
+
+    area: function () {
+      console.log(`Area of Rectangle: ${rectangle.length * rectangle.breadth}`);
+    },
+  };
+  return rectangle;
+}
+
+let rectangle1 = createRectangle();
+-----------------------------------------------------------------
+
+5.]What is constructor function ?
+
+-----------------------------------------------------------------
+
+
+6.]What is Object clonning and way of object clonning ?
+
+i)Using Iteration
+ii)Using By Assign operator
+iii)Using Spread
+
+-----------------------------------------------------------------
+
+
+7.] What is spread operator ?
+
+
+-----------------------------------------------------------------
+
+8.] What is Hoisting ?
+Ans- Hoisting is the process of moving function declearation 
+to the top of file and done automatically by js engine.
+
+-----------------------------------------------------------------
+
+9.] What is function assignment ?
+Ans-Assign function to a variable is called the function assignment and we have to call the variable for executing the function.Function assignment does not support the hoisting.
+
+Two types-
+i)Named function assignment-function name present
+ii)Annonymous function assignment-function name not present
+
+-----------------------------------------------------------------
+
+10.]What is rest operator?
+
+
+-----------------------------------------------------------------
+
+
