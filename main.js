@@ -8,7 +8,7 @@ const rectangle={
     },
     
     area:function(){
-        console.log(`Area of Rectangle: ${rectangle.length*rectangle.breadth}`);
+        console.log(`Area of Rectangle is: ${rectangle.length*rectangle.breadth}`);
     }
 };
 return rectangle;
