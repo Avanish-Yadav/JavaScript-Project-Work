@@ -4,7 +4,7 @@ const rectangle={
     breadth,
 
     draw:function(){
-        console.log("Drawing reactangle is : ");
+        console.log("Drawing");
     },
     
     area:function(){
